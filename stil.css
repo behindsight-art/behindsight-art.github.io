@@ -1,0 +1,19 @@
+/* BEHINDSIGHT Rechtsseite – schlicht, mobil, ohne externe Schriften, ohne Skripte, ohne Cookies */
+:root { --grafit: #121417; --kreide: #f2eee6; --amber: #ffb224; --gedimmt: #5d5b57; --linie: #dcd7cc; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #faf8f4; color: #1d1f22; font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { background: var(--grafit); color: var(--kreide); padding: 18px 16px; }
+header a { color: var(--kreide); text-decoration: none; font-weight: 700; letter-spacing: .06em; }
+header span { color: var(--amber); }
+main { max-width: 720px; margin: 0 auto; padding: 20px 16px 48px; }
+h1 { font-size: 1.6rem; margin: .4em 0 .6em; }
+h2 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
+p, li { margin: .35em 0; }
+a { color: #8a5a00; }
+nav.links { display: grid; gap: 10px; margin: 18px 0; }
+nav.links a { display: block; padding: 14px 16px; border: 1px solid var(--linie); border-radius: 10px; background: #fff; color: #1d1f22; text-decoration: none; font-weight: 600; }
+.hinweis { font-size: .92rem; color: var(--gedimmt); }
+header { border-bottom: 3px solid var(--amber); }
+footer { border-top: 1px solid var(--linie); margin-top: 32px; padding-top: 12px; font-size: .9rem; }
+footer a { margin-right: 14px; }
